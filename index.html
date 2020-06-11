@@ -3,21 +3,45 @@
 	<head>
 		<title>Gymnasts Project</title>
 		<style>
-			body{
+			body {
 				display: flex;
 				flex-flow: column wrap;
-				justify-content: space-evenly;
-				background-colour: #03fcb6;
+				justify-content: center;
+				align-items: center;
+				background-color: #5203fc;
+				font-family: sans-serif;
+				color: #ffffff;
 			}
-				
+
+			#first-gymnast {
+				display: flex;
+				flex-direction: row;
+				max-width: 60%;
+			}
+
+			#info {
+				display: flex;
+  			flex-direction: column;
+  			justify-content: center;
+			}
+
+			#photo1 {
+				width: 40%;
+			}
+
+
+
 		</style>
 	</head>
 	<body>
 		<div id="intro">
 		    <h1> Gymnasts Project </h1>
-		    <p>Here we're going to put an introduction</p>
+		    <p>Here we're going to put an introduction (what is this site about? why was it made? when was it last updated? )</p>
 		</div>
-		<div id="first-gymnast>
+
+		<div id="first-gymnast">
+
+		<div id="info">
 			 <h2>Gymnast's Name</h2>
 			 <h3>Basic Information<h3>
 			 <ul>
@@ -26,10 +50,13 @@
 			 	<li>Country: </li>
 			 	<li>(we can add more of these later)</li>
 			 </ul>
+
 			 <h3>Background</h3>
-			 <p>Here we wil put some writing about the Gymnast's background (Where did they grow up? When did they start gymnastics? etc.)</p>
-			 <h3>Why I like this gymnast</h3>
-			 <p> Here we will put some writing about why you like this gymnast. What do they do well? What's their personality? etc</p>
+			 <p>Here we will put some writing about the Gymnast's background (Where did they grow up? When did they start gymnastics? etc.)</p>
+			 <h3>Why is this gymnast interesting?</h3>
+			 <p> Here we will put some writing about why you like this gymnast. What do they do well? What's their personality? etc.</p>
+		</div>
+			<img id="photo1" src="https://upload.wikimedia.org/wikipedia/commons/5/56/2014_Acrobatic_Gymnastics_World_Championships_-_Mixed_pair_-_Qualifications_-_Belarus_1_01.jpg" alt="A photo of the gymnast">
 		</div>
   </body>
 </html>
